@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		82351B301A1641E100B321A8 /* Flavour.m in Sources */ = {isa = PBXBuildFile; fileRef = 82351B2F1A1641E100B321A8 /* Flavour.m */; };
-		82351B311A1641E100B321A8 /* Flavour.m in Sources */ = {isa = PBXBuildFile; fileRef = 82351B2F1A1641E100B321A8 /* Flavour.m */; };
+		822D23361A16DB5800226A93 /* Flavour.m in Sources */ = {isa = PBXBuildFile; fileRef = 822D23351A16DB5800226A93 /* Flavour.m */; };
 		82C82ED519FDCF5800950CB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C82ED419FDCF5800950CB1 /* AppDelegate.m */; };
 		82C82ED719FDCF5800950CB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C82ED619FDCF5800950CB1 /* main.m */; };
 		82C82ED919FDCF5800950CB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82C82ED819FDCF5800950CB1 /* Images.xcassets */; };
@@ -27,8 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		82351B2E1A1641E100B321A8 /* Flavour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Flavour.h; path = ../Flavour.h; sourceTree = "<group>"; };
-		82351B2F1A1641E100B321A8 /* Flavour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Flavour.m; path = ../Flavour.m; sourceTree = "<group>"; };
+		822D23341A16DB5800226A93 /* Flavour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flavour.h; sourceTree = "<group>"; };
+		822D23351A16DB5800226A93 /* Flavour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flavour.m; sourceTree = "<group>"; };
 		82C82ECE19FDCF5700950CB1 /* iJuiceMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iJuiceMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C82ED219FDCF5800950CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82C82ED319FDCF5800950CB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,8 +79,8 @@
 		82C82ED019FDCF5700950CB1 /* iJuiceMe */ = {
 			isa = PBXGroup;
 			children = (
-				82351B2E1A1641E100B321A8 /* Flavour.h */,
-				82351B2F1A1641E100B321A8 /* Flavour.m */,
+				822D23341A16DB5800226A93 /* Flavour.h */,
+				822D23351A16DB5800226A93 /* Flavour.m */,
 				82C82ED319FDCF5800950CB1 /* AppDelegate.h */,
 				82C82ED419FDCF5800950CB1 /* AppDelegate.m */,
 				82C82ED819FDCF5800950CB1 /* Images.xcassets */,
@@ -216,8 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82351B301A1641E100B321A8 /* Flavour.m in Sources */,
 				82C82ED719FDCF5800950CB1 /* main.m in Sources */,
+				822D23361A16DB5800226A93 /* Flavour.m in Sources */,
 				82C82ED519FDCF5800950CB1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,7 +226,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				82C82EE819FDCF5800950CB1 /* iJuiceMeTests.m in Sources */,
-				82351B311A1641E100B321A8 /* Flavour.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
