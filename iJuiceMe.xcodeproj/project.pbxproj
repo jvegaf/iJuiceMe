@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82351B301A1641E100B321A8 /* Flavour.m in Sources */ = {isa = PBXBuildFile; fileRef = 82351B2F1A1641E100B321A8 /* Flavour.m */; };
+		82351B311A1641E100B321A8 /* Flavour.m in Sources */ = {isa = PBXBuildFile; fileRef = 82351B2F1A1641E100B321A8 /* Flavour.m */; };
+		82C82ED519FDCF5800950CB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C82ED419FDCF5800950CB1 /* AppDelegate.m */; };
+		82C82ED719FDCF5800950CB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C82ED619FDCF5800950CB1 /* main.m */; };
+		82C82ED919FDCF5800950CB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82C82ED819FDCF5800950CB1 /* Images.xcassets */; };
+		82C82EDC19FDCF5800950CB1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82C82EDA19FDCF5800950CB1 /* MainMenu.xib */; };
+		82C82EE819FDCF5800950CB1 /* iJuiceMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C82EE719FDCF5800950CB1 /* iJuiceMeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82C82EE219FDCF5800950CB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82C82EC619FDCF5700950CB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82C82ECD19FDCF5700950CB1;
+			remoteInfo = iJuiceMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82351B2E1A1641E100B321A8 /* Flavour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Flavour.h; path = ../Flavour.h; sourceTree = "<group>"; };
+		82351B2F1A1641E100B321A8 /* Flavour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Flavour.m; path = ../Flavour.m; sourceTree = "<group>"; };
+		82C82ECE19FDCF5700950CB1 /* iJuiceMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iJuiceMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C82ED219FDCF5800950CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82C82ED319FDCF5800950CB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82C82ED419FDCF5800950CB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82C82ED619FDCF5800950CB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82C82ED819FDCF5800950CB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82C82EDB19FDCF5800950CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		82C82EE119FDCF5800950CB1 /* iJuiceMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iJuiceMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C82EE619FDCF5800950CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82C82EE719FDCF5800950CB1 /* iJuiceMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iJuiceMeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82C82ECB19FDCF5700950CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C82EDE19FDCF5800950CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82C82EC519FDCF5700950CB1 = {
+			isa = PBXGroup;
+			children = (
+				82C82ED019FDCF5700950CB1 /* iJuiceMe */,
+				82C82EE419FDCF5800950CB1 /* iJuiceMeTests */,
+				82C82ECF19FDCF5700950CB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82C82ECF19FDCF5700950CB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82C82ECE19FDCF5700950CB1 /* iJuiceMe.app */,
+				82C82EE119FDCF5800950CB1 /* iJuiceMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82C82ED019FDCF5700950CB1 /* iJuiceMe */ = {
+			isa = PBXGroup;
+			children = (
+				82351B2E1A1641E100B321A8 /* Flavour.h */,
+				82351B2F1A1641E100B321A8 /* Flavour.m */,
+				82C82ED319FDCF5800950CB1 /* AppDelegate.h */,
+				82C82ED419FDCF5800950CB1 /* AppDelegate.m */,
+				82C82ED819FDCF5800950CB1 /* Images.xcassets */,
+				82C82EDA19FDCF5800950CB1 /* MainMenu.xib */,
+				82C82ED119FDCF5700950CB1 /* Supporting Files */,
+			);
+			path = iJuiceMe;
+			sourceTree = "<group>";
+		};
+		82C82ED119FDCF5700950CB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82C82ED219FDCF5800950CB1 /* Info.plist */,
+				82C82ED619FDCF5800950CB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82C82EE419FDCF5800950CB1 /* iJuiceMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				82C82EE719FDCF5800950CB1 /* iJuiceMeTests.m */,
+				82C82EE519FDCF5800950CB1 /* Supporting Files */,
+			);
+			path = iJuiceMeTests;
+			sourceTree = "<group>";
+		};
+		82C82EE519FDCF5800950CB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82C82EE619FDCF5800950CB1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82C82ECD19FDCF5700950CB1 /* iJuiceMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C82EEB19FDCF5800950CB1 /* Build configuration list for PBXNativeTarget "iJuiceMe" */;
+			buildPhases = (
+				82C82ECA19FDCF5700950CB1 /* Sources */,
+				82C82ECB19FDCF5700950CB1 /* Frameworks */,
+				82C82ECC19FDCF5700950CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iJuiceMe;
+			productName = iJuiceMe;
+			productReference = 82C82ECE19FDCF5700950CB1 /* iJuiceMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82C82EE019FDCF5800950CB1 /* iJuiceMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C82EEE19FDCF5800950CB1 /* Build configuration list for PBXNativeTarget "iJuiceMeTests" */;
+			buildPhases = (
+				82C82EDD19FDCF5800950CB1 /* Sources */,
+				82C82EDE19FDCF5800950CB1 /* Frameworks */,
+				82C82EDF19FDCF5800950CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82C82EE319FDCF5800950CB1 /* PBXTargetDependency */,
+			);
+			name = iJuiceMeTests;
+			productName = iJuiceMeTests;
+			productReference = 82C82EE119FDCF5800950CB1 /* iJuiceMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82C82EC619FDCF5700950CB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jose Vega";
+				TargetAttributes = {
+					82C82ECD19FDCF5700950CB1 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					82C82EE019FDCF5800950CB1 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 82C82ECD19FDCF5700950CB1;
+					};
+				};
+			};
+			buildConfigurationList = 82C82EC919FDCF5700950CB1 /* Build configuration list for PBXProject "iJuiceMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82C82EC519FDCF5700950CB1;
+			productRefGroup = 82C82ECF19FDCF5700950CB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82C82ECD19FDCF5700950CB1 /* iJuiceMe */,
+				82C82EE019FDCF5800950CB1 /* iJuiceMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82C82ECC19FDCF5700950CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C82ED919FDCF5800950CB1 /* Images.xcassets in Resources */,
+				82C82EDC19FDCF5800950CB1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C82EDF19FDCF5800950CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82C82ECA19FDCF5700950CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82351B301A1641E100B321A8 /* Flavour.m in Sources */,
+				82C82ED719FDCF5800950CB1 /* main.m in Sources */,
+				82C82ED519FDCF5800950CB1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C82EDD19FDCF5800950CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C82EE819FDCF5800950CB1 /* iJuiceMeTests.m in Sources */,
+				82351B311A1641E100B321A8 /* Flavour.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82C82EE319FDCF5800950CB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82C82ECD19FDCF5700950CB1 /* iJuiceMe */;
+			targetProxy = 82C82EE219FDCF5800950CB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82C82EDA19FDCF5800950CB1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82C82EDB19FDCF5800950CB1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82C82EE919FDCF5800950CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82C82EEA19FDCF5800950CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82C82EEC19FDCF5800950CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iJuiceMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82C82EED19FDCF5800950CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iJuiceMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82C82EEF19FDCF5800950CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iJuiceMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iJuiceMe.app/Contents/MacOS/iJuiceMe";
+			};
+			name = Debug;
+		};
+		82C82EF019FDCF5800950CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iJuiceMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iJuiceMe.app/Contents/MacOS/iJuiceMe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82C82EC919FDCF5700950CB1 /* Build configuration list for PBXProject "iJuiceMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C82EE919FDCF5800950CB1 /* Debug */,
+				82C82EEA19FDCF5800950CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C82EEB19FDCF5800950CB1 /* Build configuration list for PBXNativeTarget "iJuiceMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C82EEC19FDCF5800950CB1 /* Debug */,
+				82C82EED19FDCF5800950CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C82EEE19FDCF5800950CB1 /* Build configuration list for PBXNativeTarget "iJuiceMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C82EEF19FDCF5800950CB1 /* Debug */,
+				82C82EF019FDCF5800950CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82C82EC619FDCF5700950CB1 /* Project object */;
+}
