@@ -8,8 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate,NSWindowDelegate>
 
+@property (weak) IBOutlet NSTextField *eliqNameTField;
 @property (weak) IBOutlet NSTextField *eliqFinalRatioPGTField;
 @property (weak) IBOutlet NSTextField *eliqFinalRatioVGTField;
 @property (weak) IBOutlet NSTextField *amountToMakeTextField;

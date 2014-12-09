@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6250"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -14,8 +14,9 @@
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
             <connections>
                 <outlet property="amountToMakeTextField" destination="n9S-0T-ySY" id="9TX-dA-Evb"/>
-                <outlet property="eliqFinalRatioPGTField" destination="e2E-kd-yCs" id="W4J-Gl-Vkg"/>
+                <outlet property="eliqFinalRatioPGTField" destination="e2E-kd-yCs" id="CPk-aP-Kjx"/>
                 <outlet property="eliqFinalRatioVGTField" destination="hra-VJ-eys" id="pos-bK-RqY"/>
+                <outlet property="eliqNameTField" destination="9J2-FV-y7L" id="25p-of-dCX"/>
                 <outlet property="flavour1Solution" destination="PWS-9Z-oii" id="fY6-tC-qf5"/>
                 <outlet property="nicotineBaseDisolutionSelector" destination="RuV-2d-Yuk" id="WEc-F2-Qet"/>
                 <outlet property="nicotineBaseTextField" destination="J51-16-Vno" id="sNh-oS-3Fe"/>
@@ -728,11 +729,11 @@
                     </button>
                     <scrollView fixedFrame="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C56-IB-hkb">
                         <rect key="frame" x="-1" y="-1" width="427" height="324"/>
-                        <clipView key="contentView" ambiguous="YES" misplaced="YES" id="tgK-uv-QX0">
+                        <clipView key="contentView" misplaced="YES" id="tgK-uv-QX0">
                             <rect key="frame" x="1" y="1" width="238" height="133"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
-                                <textView ambiguous="YES" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="XbH-FM-fxk">
+                                <textView importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="XbH-FM-fxk">
                                     <rect key="frame" x="0.0" y="0.0" width="244" height="322"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

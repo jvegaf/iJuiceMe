@@ -16,6 +16,10 @@
 
 @implementation AppDelegate
 
+-(void)windowWillClose:(NSNotification *)aNotification {
+    [NSApp terminate:self];
+}
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     [_eliqFinalRatioPGTField setIntValue:[_ratioSlider intValue]];
     [_eliqFinalRatioVGTField setIntValue:(100 - [_ratioSlider intValue])];
@@ -43,7 +47,9 @@
 - (IBAction)calculate:(id)sender {
     [_resultsTextview setString:@""];
     [_resultsTextview setFont:[NSFont userFontOfSize:14.0]];
-    [_resultsTextview insertText:@"Recipe: \n\n\n"];
+    [_resultsTextview insertText:@"Recipe:   "];
+    [_resultsTextview insertText:_eliqNameTField.stringValue];
+    [_resultsTextview insertText:@"\n\n\n"];
     _totalPG = 0.0;
     _totalPG = [self pgMlfinal:[_amountToMakeTextField intValue] withRatio:[_eliqFinalRatioPGTField intValue]];
     _totalVG = 0.0;

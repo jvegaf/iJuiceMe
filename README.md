@@ -7,6 +7,13 @@ Actually be on beta version.
 
 Its functionally although not be completed.
 
-You can download [here](https://raw.github.com/jvegaf/iJuiceMe/master/iJuiceMe_0.1.zip)
+
+TODO
+----
+
+- Auto Save last recipe
+
+
+You can download [here](https://raw.github.com/jvegaf/iJuiceMe/master/iJuiceMe.zip)
 
 ![alt tag](https://raw.github.com/jvegaf/iJuiceMe/master/screenshot.png)
