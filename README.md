@@ -13,6 +13,7 @@ TODO
 ----
 
 - Auto Save last recipe
+- Spanish Localization
 
 
 You can download [here](https://raw.github.com/jvegaf/iJuiceMe/master/iJuiceMe.zip)
