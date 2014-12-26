@@ -16,6 +16,10 @@
 
 @implementation AppDelegate
 
+-(void)awakeFromNib{
+    [_window setDelegate:self];
+}
+
 -(void)windowWillClose:(NSNotification *)aNotification {
     [NSApp terminate:self];
 }
