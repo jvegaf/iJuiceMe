@@ -17,7 +17,7 @@ TODO
 DOWNLOAD
 ========
 
-You can download [here](https://raw.github.com/jvegaf/iJuiceMe/master/iJuiceMe_0.1.1.zip)
+You can download [here](https://raw.github.com/jvegaf/iJuiceMe/master/iJuiceMe.zip)
 
 
 ![alt tag](https://raw.github.com/jvegaf/iJuiceMe/master/screenshot.png)
